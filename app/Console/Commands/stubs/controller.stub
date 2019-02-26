@@ -1,0 +1,52 @@
+<?php
+
+namespace App\Http\Controllers{namespace};
+
+use App\Models\{name};
+use App\Http\Controllers\Controller;
+use App\Transformers\{name}Transformer;
+
+class {name}sController extends Controller
+{
+    /**
+     * Initial constructor
+     *
+     * {name}sController constructor.
+     */
+    public function __construct()
+    {
+        $this->model = new {name}();
+        $this->transformer = new {name}Transformer();
+    }
+
+    /**
+     * Filters
+     *
+     * @return array
+     */
+    protected function filters(): array
+    {
+        return [];
+    }
+
+    /**
+     * Form validation criteria
+     *
+     * @param int $rule
+     * @return array
+     */
+    protected function rules($rule = self::RULE_STORE):array
+    {
+        return [];
+    }
+
+    /**
+     * Custom attribute
+     *
+     * @return array
+     */
+    protected function attributes():array
+    {
+        return [];
+    }
+}

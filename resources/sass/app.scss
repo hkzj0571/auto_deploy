@@ -1,0 +1,28 @@
+@import "~bootstrap/scss/bootstrap";
+$mdi-font-path: '~mdi/fonts';
+@import '~mdi/scss/materialdesignicons';
+
+.index {
+  .navbar {
+    padding: 1rem;
+    background: none !important;
+    box-shadow: 0 5px 10px 0 rgba(0,64,128,.05);
+    .nav-link {
+      font-size: 14px;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+    .input-group {
+      .input-group-text {
+        cursor: pointer;
+        color:#ff6700;
+        font-size: 22px;
+        background: #fff;
+        padding: 0px 12px;
+      }
+      .form-control {
+        font-size: 13px;
+      }
+    }
+  }
+}

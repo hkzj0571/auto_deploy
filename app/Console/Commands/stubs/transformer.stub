@@ -1,0 +1,21 @@
+<?php
+
+namespace App\Transformers;
+
+use App\Models\{NAME};
+use League\Fractal\TransformerAbstract;
+
+class {NAME}Transformer extends TransformerAbstract
+{
+    /**
+     * Transform a {NAME}.
+     *
+     * @param  \App\Models\{NAME} {name}
+     *
+     * @return array
+     */
+    public function transform({NAME} ${name})
+    {
+        //
+    }
+}
